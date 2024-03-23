@@ -2,7 +2,7 @@ import {BrowserRouter,Outlet,Routes,Route} from 'react-router-dom';
 import Login from './Login'
 import ProfilePage from './ProfilePage';
 import AuthProfilePage from './AuthProfilePage'
-import './app.css'
+import './App.css'
 function App() {
   return (
     <BrowserRouter>

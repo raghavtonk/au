@@ -1,43 +1,43 @@
-.bold{
-    font-weight: 600;
+.bold {
+  font-weight: 600;
 }
-form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-form input{
-    margin-bottom: 10px;
-    border: 3px solid #ccc;
-    transition: 0.5s;
+form input {
+  margin-bottom: 10px;
+  border: 3px solid #ccc;
+  transition: 0.5s;
 }
-form button{
-    background-color: #007BFF;
-    padding: 3px;
-    border: 1px solid #007BFF;
-    border-radius: 5px;
-    margin-left: 60px;
-    transition: 0.5s;
+form button {
+  background-color: #007bff;
+  padding: 3px;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  margin-left: 60px;
+  transition: 0.5s;
 }
-.loginContainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin-top: 30vh;
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30vh;
 }
 
-form button:hover{
-    padding: 4px;
-    background-color: #007bffeb;
+form button:hover {
+  padding: 4px;
+  background-color: #007bffeb;
 }
-input:hover{
-    border: 3px solid #007BFF;
+input:hover {
+  border: 3px solid #007bff;
 }
 input:focus {
-    border: 3px solid #555;
-  }
-  .error{
-    color: red;
-  }
+  border: 3px solid #555;
+}
+.error {
+  color: red;
+}
